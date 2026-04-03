@@ -3,6 +3,6 @@ cnt=0
 while x>0:
     if (x%121)>=64 and (x%121)<=104:
         cnt+=1
-    x=x//121\
+    x=x//121    
     
 print('tmep',cnt)
