@@ -9,7 +9,6 @@ for line in f:
         if a[i]<=a[i+1]:
             n+=1
         else: break
-    if n==6:
-        if len(pov)==3 and len(nepov)==4:
-            cnt+=1
+    if ((n==6) + (len(pov)==3 and len(nepov)==4))<=1:
+        cnt+=1
 print('temp',cnt)
