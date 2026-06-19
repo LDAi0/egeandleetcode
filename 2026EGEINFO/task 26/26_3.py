@@ -1,0 +1,1 @@
+print(len(set([int(x) for x in open(r'C:\Users\abso\Documents\Visual Studio\GoLeetcode\2026EGEINFO\task 26\600.txt')])))
